@@ -1,3 +1,20 @@
+@font-face {
+    font-family: "netflix_sans_regular";
+    src: url(netflix_sans/NetflixSansRegular.ttf);
+    font-family: "netflix_bold";
+    src: url(netflix_sans/NetflixSansBold.ttf);
+    font-family: "netflix_icon";
+    src: url(netflix_sans/NetflixSansIcon.ttf);
+    font-family: "netflix-light";
+    src: url(netflix_sans/NetflixSansLight.ttf);
+    font-family: "netflix_medium";
+    src: url(netflix_sans/NetflixSansMedium.ttf);
+    font-family: "netflix_thin";
+    src: url(netflix_sans/NetflixSansThin.ttf);
+    font-family: "netflix_black";
+    src: url(netflix_sans/NetflixSansBlack.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +25,8 @@ body {
 #background-img {
     position: fixed;
     z-index: -1;
-    opacity: 50%;
+    opacity: 40%;
+    width: 100%;
 }
 
 .header {
@@ -47,6 +65,14 @@ select {
     padding: 4px 8px;
 }
 
+#main-text {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    max-width: calc(100% - 3rem);
+    
+}
+
 .red-btn-style {
     background-color: #E50914;
     color: white;
@@ -62,13 +88,18 @@ select {
 }
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  display: flex;
-  align-self: center;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    display: flex;
+    align-self: center;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-family: "netflix_sans_regular", Helvetica, sans-serif;
 }
 
 option {
