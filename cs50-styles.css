@@ -61,7 +61,7 @@ select {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid #5E6060;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 4px 8px;
 }
 
@@ -70,7 +70,24 @@ select {
     font-size: 3rem;
     font-weight: 700;
     max-width: calc(100% - 3rem);
-    
+
+}
+
+.sign-up {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    height: 40px;
+}
+
+#sign-up-input {
+    max-width: 500px;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #5E6060;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: white;
 }
 
 .red-btn-style {
@@ -100,6 +117,7 @@ select {
 .text {
     color: rgb(255, 255, 255);
     font-family: "netflix_sans_regular", Helvetica, sans-serif;
+    text-align: center;
 }
 
 option {
