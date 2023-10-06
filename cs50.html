@@ -20,12 +20,14 @@
             alt="netflix logo">
         <div id="header-end">
             <div id="lang-select">
-                <label for="header-lang"><span class="material-symbols-outlined">translate</span></label>
-                <select name="header-lang" id="header-lang">
-                    <option value="">Português</option>
-                    <option value="">English</option>
-                    <option value="">Français</option>
-                </select>
+                <form action="">
+                    <label for="header-lang"><span class="material-symbols-outlined">translate</span></label>
+                    <select name="header-lang" id="header-lang">
+                        <option value="">Português</option>
+                        <option value="">English</option>
+                        <option value="">Français</option>
+                    </select>
+                </form>
             </div>
             <button class="red-btn-style">Entrar</button>
         </div>
@@ -35,8 +37,10 @@
     <h3 class="text">Assine hoje, cancele quando quiser.</h3>
     <h3 class="text">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
     <div class="sign-up">
-        <input id="sign-up-input" type="text" placeholder="Email">
-        <input class="red-btn-style" type="submit" value="Vamos lá >">
+        <form action="">
+            <input id="sign-up-input" type="text" placeholder="Email">
+            <input class="red-btn-style" type="submit" value="Vamos lá >">
+        </form>
     </div>
     <script src="index.js"></script>
 </body>

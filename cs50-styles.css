@@ -78,6 +78,9 @@ select {
     display: flex;
     gap: 12px;
     justify-content: center;
+}
+
+.sign-up form input {
     height: 40px;
 }
 
